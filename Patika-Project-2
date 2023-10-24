@@ -1,0 +1,27 @@
+Diziyi iki eşit parçaya böler.
+Her iki parçayı da ayrı ayrı sıralar (rekürsif olarak aynı algoritmayı kullanarak).
+İki sıralı parçayı birleştirir.
+Verilen diziniz [16, 21, 11, 8, 12, 22] olduğunda, Merge Sort'un aşamaları şu şekildedir:
+
+1. İlk aşama (Dizi bölme):
+Dizi iki eşit parçaya bölünür.
+Sol parça: [16, 21, 11]
+Sağ parça: [8, 12, 22]
+
+2. İkinci aşama (Parçaları sıralama):
+Her iki parça da ayrı ayrı sıralanır (rekürsif olarak).
+Sol parça: [11, 16, 21]
+Sağ parça: [8, 12, 22]
+
+3. Üçüncü aşama (Birleştirme):
+Sıralanmış parçalar birleştirilir.
+Sol parça: [8, 11, 12, 16, 21, 22]
+Sağ parça: [8, 11, 12, 16, 21, 22]
+
+Sonuç olarak, tüm diziyi sıralanmış bir şekilde elde edersiniz: [8, 11, 12, 16, 21, 22]
+
+Merge Sort'un Big-O gösterimi O(n log n) şeklindedir, n dizinin eleman sayısını temsil eder. Bu, Merge Sort'un genellikle hızlı ve etkili bir sıralama algoritması olduğu anlamına gelir.
+
+
+
+
